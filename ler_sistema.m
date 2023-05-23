@@ -130,11 +130,11 @@ while 1
     end
     Barra.tensao(ibus,1) = str2double(tline(28:33));
     Barra.angulo(ibus,1) =str2double(tline(34:40)); 
-    if Barra.tipo(ibus,1) == 3
-        if Barra.angulo(ibus,1) ~= 0
-            fprintf('AVISO: Angulo da Barra de Referencia diferente de zero: %0.4f\n', Barra.angulo(ibus,1));
-        end
-    end
+   % if Barra.tipo(ibus,1) == 3
+       % if Barra.angulo(ibus,1) ~= 0
+        %    fprintf('AVISO: Angulo da Barra de Referencia diferente de zero: %0.4f\n', Barra.angulo(ibus,1));
+        %end
+    %end
     Barra.carga_MW(ibus,1) = str2double(tline(41:49));
     Barra.carga_MVAR(ibus,1) = str2double(tline(50:58));
     Barra.ger_MW(ibus,1) = str2double(tline(59:67));
