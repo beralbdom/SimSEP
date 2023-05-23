@@ -1,0 +1,11 @@
+Qt. Barras  Step Perfil Carga (em minutos)
+30           60
+
+## Tipo de Carga por Barra - Iniciar inserção de dados na linha 6. Escrever default na ultima linha
+Nº Barra    Tipo de Carga
+2	     Comercial
+4            Residencial
+6            Comercial
+9            Residencial
+10           Industrial
+default      Comercial
