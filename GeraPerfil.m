@@ -10,7 +10,7 @@ function [Carga] = GeraPerfil(DirD, TipoDeCarga, qi_hora, qi_dia, x_pc, Carga)
     
     for i = 1 : qi_dia
         Carga(i, x_pc) = interp1(horaX, PesosY, (i/qi_hora), 'pchip','extrap');
-        end
     end
+end
 
 
